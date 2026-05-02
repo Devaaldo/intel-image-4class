@@ -1,9 +1,13 @@
-tensorflow==2.15.1
-numpy==1.26.4
-pandas==2.2.2
-matplotlib==3.8.4
-seaborn==0.13.2
-scikit-learn==1.4.2
-Pillow==10.3.0
-tensorflowjs==4.12.0
+tensorflow>=2.16.1
+numpy>=1.26.4
+pandas>=2.2.2
+matplotlib>=3.8.4
+seaborn>=0.13.2
+scikit-learn>=1.4.2
+Pillow>=10.3.0
 kaggle>=1.6.0
+
+# NOTE: tensorflowjs is currently commented out because its dependency 
+# (tensorflow-decision-forests) does not support Windows / Python 3.12 via pip.
+# If you are on Linux/WSL or Python < 3.12, you can uncomment the line below:
+# tensorflowjs>=4.17.0
