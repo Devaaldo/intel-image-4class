@@ -1,0 +1,48 @@
+# ── Dataset & raw data ──────────────────────────────────────────────────────
+data/
+*.zip
+
+# ── Model artifacts (large binaries) ────────────────────────────────────────
+models/saved_model/
+models/tfjs_model/
+models/tflite/
+models/*.keras
+models/*.h5
+
+# ── Kaggle credentials ───────────────────────────────────────────────────────
+kaggle.json
+
+# ── Jupyter checkpoints ──────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── OS & editor files ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Temporary / build artifacts ───────────────────────────────────────────────
+*.tmp
+*.bak
+dist/
+build/
